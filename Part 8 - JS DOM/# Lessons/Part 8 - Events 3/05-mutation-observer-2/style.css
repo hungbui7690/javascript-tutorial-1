@@ -1,0 +1,26 @@
+button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: lightslategray;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+}
+/*👉
+ul li {
+  list-style: none;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+ul li:nth-child(odd) {
+  background-color: lightgray;
+}
+
+ul li.special {
+  background-color: lightpink;
+  color: white;
+}
+👈*/

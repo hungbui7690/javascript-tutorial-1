@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Form Data API</title>
+  </head>
+  <body>
+    <form class="form">
+      <h3 class="title">Form Data API</h3>
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          class="form-input name-input"
+        />
+      </div>
+      <div class="form-row">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          name="email"
+          class="form-input email-input"
+        />
+      </div>
+      <div class="form-row">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-input password-input"
+          autocomplete="on"
+        />
+      </div>
+
+      <button type="submit" class="btn btn-block">Register</button>
+    </form>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

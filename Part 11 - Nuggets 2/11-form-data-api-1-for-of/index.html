@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+
+    <title>Form Data API</title>
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <!-- text -->
+        <div class="form-row">
+          <label for="title">Title</label>
+          <input type="text" name="title" id="title" value="Go to the beach" />
+        </div>
+
+        <!-- text area -->
+        <div class="form-row">
+          <label for="body">Body</label>
+          <textarea id="body" name="body">
+Soak up the sun and swim in the ocean.
+          </textarea>
+        </div>
+
+        <!-- email -->
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <!-- hidden -->
+        <div class="form-row">
+          <input type="hidden" name="userId" value="1" />
+        </div>
+
+        <button class="btn btn-block">Submit</button>
+      </form>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

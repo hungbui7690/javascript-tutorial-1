@@ -1,0 +1,27 @@
+button {
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: lightslategray;
+  border: 1px solid lightslategray;
+  border-radius: 5px;
+}
+
+.parent {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+  border: 1px dashed black;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.child {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcoral;
+}

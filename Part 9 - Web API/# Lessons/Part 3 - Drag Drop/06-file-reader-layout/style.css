@@ -1,0 +1,41 @@
+input[type='file'] {
+  display: none;
+}
+input[type='file']::file-selector-button {
+  display: none;
+}
+label {
+  border: 1px solid coral;
+  padding: 0.5rem 1rem;
+  color: white;
+  background-color: coral;
+  border-radius: 5px;
+}
+.dropzone {
+  margin: 10rem;
+  padding: 5rem;
+  border: 1px dashed #444;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.active {
+  border: 5px dashed coral;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: lightslategray;
+  border: 1px solid lightslategrey;
+  color: white;
+}
+
+.dropzone {
+  cursor: pointer;
+}

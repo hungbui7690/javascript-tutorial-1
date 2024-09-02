@@ -1,0 +1,16 @@
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: lightslategray;
+  border: 1px solid lightslategrey;
+  color: white;
+}
+
+.success {
+  color: forestgreen;
+}
+
+.error {
+  color: crimson;
+}

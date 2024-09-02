@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <h1>Create User</h1>
+
+      <div class="field">
+        <label for="username">username</label>
+        <input type="text" id="username" name="username" required />
+        <small></small>
+      </div>
+      <div class="field">
+        <label for="email">email</label>
+        <input type="text" id="email" name="email" required />
+        <small></small>
+      </div>
+      <div class="field">
+        <button type="submit" class="full" id="submit">Create</button>
+      </div>
+    </form>
+
+    <div id="message"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>

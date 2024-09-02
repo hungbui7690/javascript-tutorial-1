@@ -1,0 +1,19 @@
+input[type='file'] {
+  display: block;
+  color: lightseagreen;
+  font-style: oblique;
+}
+input[type='file']::file-selector-button {
+  background-color: transparent;
+  border: 1px solid crimson;
+  color: crimson;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  background-color: lightslategray;
+  border: 1px solid lightslategrey;
+  color: white;
+}
